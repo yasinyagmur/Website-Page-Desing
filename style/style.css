@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  background-color: #35424a;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  padding: 0.5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #a9508b;
+  height: 10vh;
+}
+.navbar--ul a {
+  text-decoration: none;
+}
+.navbar--ul--li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 0.9rem;
+  padding-left: 1.25rem;
+}
+
+.navbar--home {
+  color: #a9508b;
+}
+.photo {
+  background-image: url(../image/showcase.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  position: relative;
+  color: whitesmoke;
+}
+
+.photo--text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.photo--text h1 {
+  margin-bottom: 1rem;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  background-color: #35424a;
+  width: 100%;
+  height: 8vh;
+  color: white;
+  align-items: center;
+  padding-left: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.input--btn {
+  color: white;
+  background-color: #e8491d;
+  border: none;
+  font-size: 1rem;
+  width: 5rem;
+  height: 2rem;
+  padding: 0.3rem;
+  line-height: 5%;
+}
+.input--txt {
+  line-height: 5%;
+  width: 10rem;
+  height: 2rem;
+  padding-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.tools {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  height: 30vh;
+  width: 100%;
+  align-items: center;
+  align-content: space-between;
+}
+
+.tools--img {
+  width: 30%;
+  margin: 2rem 0;
+}
+
+.tools--icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  margin-top: 5rem;
+}
+
+footer {
+  background-color: #35424a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  height: 12vh;
+  color: whitesmoke;
+  font-size: 0.8rem;
+}
+footer p {
+  margin-top: 1rem;
+}
+
+footer img {
+  margin: 1rem 0;
+  width: 10rem;
+}
